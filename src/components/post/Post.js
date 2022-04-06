@@ -7,7 +7,7 @@ const Post = ({post}) => {
             <p>{id}</p>
             <p>{userId}</p>
             <p>{title}</p>
-            <p>{body}</p>
+
         </div>
     );
 };
