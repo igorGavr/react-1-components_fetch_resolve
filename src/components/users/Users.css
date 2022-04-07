@@ -1,0 +1,11 @@
+.chosenUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.users{
+    margin: 23px;
+    display: flex;
+    flex-wrap: wrap;
+
+}

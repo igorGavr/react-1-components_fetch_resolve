@@ -4,9 +4,9 @@ import {Comment} from "../comment/Comment";
 
 const Comments = () => {
     const [comments, setComments] = useState(null)
-    useEffect(async () => {
-        const value = await commentsService.getAllComments()
-        setComments(value)
+    useEffect( () => {
+        commentsService.getAllComments()
+            .then(value => setComments(value))
     }, [])
     return (
         <div>

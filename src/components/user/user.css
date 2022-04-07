@@ -1,6 +1,21 @@
+.chosenUser{
+    background-color: #e1b884;
+    padding: 34px;
+}
 .userGreen{
     background-color: darkseagreen;
 }
 .userRed{
     background-color: indianred;
+}
+.user{
+    width: 23%;
+    margin-bottom: 12px;
+    margin-left: calc(12% - 89px);
+    margin-right: calc(12% - 89px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
